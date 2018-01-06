@@ -1,0 +1,20 @@
+<div class="header">
+  <div class="container">
+    <img src="http://s3.amazonaws.com/codecademy-content/courses/learn-rails/img/logo-1m.svg">
+    <h1>Excercises</h1>
+  </div>
+</div>
+
+<div class="exercises">
+  <div class="container">
+  	<% @excercises.each do |exercise| %> 
+			<div class="exercise"> 
+  			<p class="name"><%= exercise.exercise_name %></p>
+        <p class="reps"><%= exercise.repitions %></p>
+        <p class="sets"><%= exercise.sets %></p> 
+  			<p class="time"><%= exercise.created_at %></p> 
+			</div> 
+		<% end %>
+    
+  </div>
+</div>
