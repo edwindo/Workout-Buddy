@@ -33,6 +33,8 @@ gem 'devise'
 
 gem 'react-rails'
 
+gem 'rails-assets-axios', source: 'https://rails-assets.org'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
