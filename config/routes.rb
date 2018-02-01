@@ -9,4 +9,8 @@ Rails.application.routes.draw do
 
   get 'users/:id/schedules' => 'users#schedules'
 
+  get 'users/schedules/new' => 'users#new_schedule'
+
+  post 'users/schedules/create' => 'users#create_schedule'
+
 end

@@ -1,11 +1,6 @@
-import { Link } from 'react-router';
-
 class Home extends React.Component {
   constructor() {
     super();
-    this.state = {
-      subtitle: "",
-    };
   }
 
   handleClick() {
@@ -18,7 +13,7 @@ class Home extends React.Component {
     return (
     	<div>
     		<p>Sign In Below!</p>
-    		<Link to="/users/sign_in">GAMEEEE</Link>
+    		<a href="/users/sign_in">GAMEEEE</a>
     	</div>
     );
   }
