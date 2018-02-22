@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   namespace :api do
   	get 'users/:id/schedules' => 'users#schedules'
+
+  	get 'workouts' => 'workouts#index'
   end
 
   get 'users/:id/schedules' => 'users#schedules'
