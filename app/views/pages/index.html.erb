@@ -1,5 +1,5 @@
 <html>
 Workout Buddy
 
-<%= react_component("Home", {user: current_user}) %>
+<%= react_component("Home", {user: current_user, logged: user_signed_in? }) %>
 </html>

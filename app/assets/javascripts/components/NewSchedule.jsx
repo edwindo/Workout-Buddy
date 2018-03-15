@@ -61,6 +61,8 @@ class NewSchedule extends React.Component {
     });
     return (
     	<div className="nameInput">
+        Create a New Schedule Here
+        <br/>
         <label>
           Name:
           <br/>
