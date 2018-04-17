@@ -14,9 +14,9 @@ class UserSchedules extends React.Component {
 
   render() {
     const schedules = this.state.schedules.map((schedule) => {
-      return <div>{schedule.name}</div>
+      return <div><div>{schedule.name}</div><div>{schedule.num_days}</div></div>
     });
-    return (<div>{schedules}</div>);
+    return (<div>{schedules}<br/><a href='/users/schedules/new'>Create New Schedule</a></div>);
   }
 
 
