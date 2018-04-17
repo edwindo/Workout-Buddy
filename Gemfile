@@ -35,7 +35,6 @@ gem 'rails-assets-axios', source: 'https://rails-assets.org'
 
 gem 'active_model_serializers'
 
-gem 'pg'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -62,5 +61,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.20'
 end
