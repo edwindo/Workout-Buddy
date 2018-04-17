@@ -37,6 +37,8 @@ gem 'rails-assets-axios', source: 'https://rails-assets.org'
 
 gem 'active_model_serializers'
 
+gem 'pg'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
